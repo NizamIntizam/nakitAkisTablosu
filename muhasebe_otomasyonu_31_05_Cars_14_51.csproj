@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9B00C062-302A-4804-973C-6DE3A79E8511}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>muhasebe_otomasyonu_31_05_Cars_14_51</RootNamespace>
+    <AssemblyName>muhasebe_otomasyonu_31_05_Cars_14_51</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="f1_giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f1_giris.Designer.cs">
+      <DependentUpon>f1_giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f11_tahsilat_islemi_sil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f11_tahsilat_islemi_sil.Designer.cs">
+      <DependentUpon>f11_tahsilat_islemi_sil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f12_tahsilat_islemi_ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f12_tahsilat_islemi_ekle.Designer.cs">
+      <DependentUpon>f12_tahsilat_islemi_ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f13_tahsilat_islemi_guncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f13_tahsilat_islemi_guncelle.Designer.cs">
+      <DependentUpon>f13_tahsilat_islemi_guncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f14_tahsilat_detaylari_listele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f14_tahsilat_detaylari_listele.Designer.cs">
+      <DependentUpon>f14_tahsilat_detaylari_listele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f15_odeme_detaylari_listele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f15_odeme_detaylari_listele.Designer.cs">
+      <DependentUpon>f15_odeme_detaylari_listele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f16_kullanici_guncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f16_kullanici_guncelle.Designer.cs">
+      <DependentUpon>f16_kullanici_guncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f17_firma_guncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f17_firma_guncelle.Designer.cs">
+      <DependentUpon>f17_firma_guncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f2_ana_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f2_ana_menu.Designer.cs">
+      <DependentUpon>f2_ana_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f3_kullanici_ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f3_kullanici_ekle.Designer.cs">
+      <DependentUpon>f3_kullanici_ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f4_kullanici_sil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f4_kullanici_sil.Designer.cs">
+      <DependentUpon>f4_kullanici_sil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f5_firma_ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f5_firma_ekle.Designer.cs">
+      <DependentUpon>f5_firma_ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f6_firma_sil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f6_firma_sil.Designer.cs">
+      <DependentUpon>f6_firma_sil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f7_odeme_islemi_ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f7_odeme_islemi_ekle.Designer.cs">
+      <DependentUpon>f7_odeme_islemi_ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f8_odeme_islemi_guncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f8_odeme_islemi_guncelle.Designer.cs">
+      <DependentUpon>f8_odeme_islemi_guncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f9_odeme_isl_sil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f9_odeme_isl_sil.Designer.cs">
+      <DependentUpon>f9_odeme_isl_sil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f18_tum_detaylar_listele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f18_tum_detaylar_listele.Designer.cs">
+      <DependentUpon>f18_tum_detaylar_listele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f19_akis_islemleri_listele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f19_akis_islemleri_listele.Designer.cs">
+      <DependentUpon>f19_akis_islemleri_listele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f20_firma_durumlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f20_firma_durumlari.Designer.cs">
+      <DependentUpon>f20_firma_durumlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f10_kullanici_bilgileri_listele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f10_kullanici_bilgileri_listele.Designer.cs">
+      <DependentUpon>f10_kullanici_bilgileri_listele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f21_firma_bilgileri_listeleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f21_firma_bilgileri_listeleme.Designer.cs">
+      <DependentUpon>f21_firma_bilgileri_listeleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="f18_tum_detaylar_listele.resx">
+      <DependentUpon>f18_tum_detaylar_listele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f19_akis_islemleri_listele.resx">
+      <DependentUpon>f19_akis_islemleri_listele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f1_giris.resx">
+      <DependentUpon>f1_giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f11_tahsilat_islemi_sil.resx">
+      <DependentUpon>f11_tahsilat_islemi_sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f12_tahsilat_islemi_ekle.resx">
+      <DependentUpon>f12_tahsilat_islemi_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f13_tahsilat_islemi_guncelle.resx">
+      <DependentUpon>f13_tahsilat_islemi_guncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f14_tahsilat_detaylari_listele.resx">
+      <DependentUpon>f14_tahsilat_detaylari_listele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f15_odeme_detaylari_listele.resx">
+      <DependentUpon>f15_odeme_detaylari_listele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f16_kullanici_guncelle.resx">
+      <DependentUpon>f16_kullanici_guncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f17_firma_guncelle.resx">
+      <DependentUpon>f17_firma_guncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f20_firma_durumlari.resx">
+      <DependentUpon>f20_firma_durumlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f21_firma_bilgileri_listeleme.resx">
+      <DependentUpon>f21_firma_bilgileri_listeleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f2_ana_menu.resx">
+      <DependentUpon>f2_ana_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f3_kullanici_ekle.resx">
+      <DependentUpon>f3_kullanici_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f4_kullanici_sil.resx">
+      <DependentUpon>f4_kullanici_sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f5_firma_ekle.resx">
+      <DependentUpon>f5_firma_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f6_firma_sil.resx">
+      <DependentUpon>f6_firma_sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f7_odeme_islemi_ekle.resx">
+      <DependentUpon>f7_odeme_islemi_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f8_odeme_islemi_guncelle.resx">
+      <DependentUpon>f8_odeme_islemi_guncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f9_odeme_isl_sil.resx">
+      <DependentUpon>f9_odeme_isl_sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f10_kullanici_bilgileri_listele.resx">
+      <DependentUpon>f10_kullanici_bilgileri_listele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
